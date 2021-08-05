@@ -1,40 +1,40 @@
 @font-face {
-    src: url(./fontes/BeVietnam-Bold.ttf);
+    src: url(https://igorbraganca2003.github.io/Mackenzie/Index/fontes/BeVietnam-Bold.ttf);
     font-family: 'Vietnam-Bold';
 }
 
 @font-face {
-    src: url(./fontes/BeVietnam-BoldItalic.ttf);
+    src: url(https://igorbraganca2003.github.io/Mackenzie/Index/fontes/BeVietnam-BoldItalic.ttf);
     font-family: 'Vietnam-BoldItalic';
 }
 
 @font-face {
-    src: url(./fontes/BeVietnam-ExtraBold.ttf);
+    src: url(https://igorbraganca2003.github.io/Mackenzie/Index/fontes/BeVietnam-ExtraBold.ttf);
     font-family: 'Vietnam-ExtraBold';
 }
 
 @font-face {
-    src: url(./fontes/BeVietnam-ExtraBoldItalic.ttf);
+    src: url(https://igorbraganca2003.github.io/Mackenzie/Index/fontes/BeVietnam-ExtraBoldItalic.ttf);
     font-family: 'Vietnam-ExtraBoldItalic';
 }
 
 @font-face {
-    src: url(./fontes/BeVietnam-Italic.ttf);
+    src: url(../fontes/BeVietnam-Italic.ttf);
     font-family: 'Vietnam-Italic';
 }
 
 @font-face {
-    src: url(./fontes/BeVietnam-Light.ttf);
+    src: url(../fontes/BeVietnam-Light.ttf);
     font-family: 'Vietnam-Light';
 }
 
 @font-face {
-    src: url(./fontes/BeVietnam-LightItalic.ttf);
+    src: url(../fontes/BeVietnam-LightItalic.ttf);
     font-family: 'Vietnam-LightItalic';
 }
 
 @font-face {
-    src: url(./fontes/BeVietnam-Medium.ttf);
+    src: url(../fontes/BeVietnam-Medium.ttf);
     font-family: 'Vietnam-Medium';
 }
 
