@@ -1,0 +1,575 @@
+@font-face {
+    src: url(./fontes/BeVietnam-Bold.ttf);
+    font-family: 'Vietnam-Bold';
+}
+
+@font-face {
+    src: url(./fontes/BeVietnam-BoldItalic.ttf);
+    font-family: 'Vietnam-BoldItalic';
+}
+
+@font-face {
+    src: url(./fontes/BeVietnam-ExtraBold.ttf);
+    font-family: 'Vietnam-ExtraBold';
+}
+
+@font-face {
+    src: url(./fontes/BeVietnam-ExtraBoldItalic.ttf);
+    font-family: 'Vietnam-ExtraBoldItalic';
+}
+
+@font-face {
+    src: url(./fontes/BeVietnam-Italic.ttf);
+    font-family: 'Vietnam-Italic';
+}
+
+@font-face {
+    src: url(./fontes/BeVietnam-Light.ttf);
+    font-family: 'Vietnam-Light';
+}
+
+@font-face {
+    src: url(./fontes/BeVietnam-LightItalic.ttf);
+    font-family: 'Vietnam-LightItalic';
+}
+
+@font-face {
+    src: url(./fontes/BeVietnam-Medium.ttf);
+    font-family: 'Vietnam-Medium';
+}
+
+@font-face {
+    src: url(./fontes/BeVietnam-MediumItalic.ttf);
+    font-family: 'Vietnam-MediumItalic';
+}
+
+@font-face {
+    src: url(./fontes/BeVietnam-Regular.ttf);
+    font-family: 'Vietnam-Regular';
+}
+
+@font-face {
+    src: url(./fontes/BeVietnam-SemiBold.ttf);
+    font-family: 'Vietnam-SemiBold';
+}
+
+@font-face {
+    src: url(./fontes/BeVietnam-SemiBoldItalic.ttf);
+    font-family: 'Vietnam-SemiBoldItalic';
+}
+
+@font-face {
+    src: url(./fontes/BeVietnam-Thin.ttf);
+    font-family: 'Vietnam-Thin';
+}
+
+@font-face {
+    src: url(./fontes/BeVietnam-ThinItalic.ttf);
+    font-family: 'Vietnam-ThinItalic';
+}
+
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-track{
+    background-color:white;
+}
+
+::-webkit-scrollbar-thumb{
+    width: 100%;
+    background-color: #ad0c1b;
+    border-radius: 15px;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    margin: 0;
+    background-color: #f8f4f4;
+}
+
+@media screen and (min-width:1025px) {
+
+    .primeiro-direito{
+        float: right;
+    }
+    .nav-bar {
+        font-size: 1.2rem;
+        text-align: center;
+        padding: 20px 0;
+        margin: 0;
+    }
+    .nav-bar img{
+        height: 60px;
+        float: left;
+        padding-left: 20px;
+    }
+    .nav{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .nav-bar a{
+        font-family: 'Vietnam-SemiBold';
+        text-decoration: none;
+        text-align: center;
+        padding: 0 50px 0 0;
+        color: black;
+        margin-top: 100px;
+    }
+    .primeiro-esquerdo{
+        padding: 70px 0 0 80px;
+        width: 30%;
+        float: left;
+    }
+    .primeiro-esquerdo h1{
+        font-family: 'Vietnam-Bold';
+        font-size: 0.8rem;
+        color:#ad0c1b;
+        margin: 0;
+        padding-bottom: 10px;
+    }
+    .primeiro-esquerdo h2{
+        font-family: 'Vietnam-Bold';
+        font-size: 3rem;
+        color:black;
+        margin: 0;
+    }
+    .primeiro-esquerdo p{
+        font-family: 'Vietnam-Regular';
+        font-size: 0.8rem;
+        margin-bottom: 30px
+    }
+    .primeiro-esquerdo button {
+        background-color:#ad0c1b;
+        color: white;
+        border: none;
+        display: inline-block;
+        padding: 10px;
+    }
+    .primeiro-esquerdo button u{
+        font-family: 'Vietnam-Thin';
+        text-decoration: none;
+    }
+
+    /* segundo */
+    .segunda-parte{
+        display: inline-block;
+        height: 590px;
+    }
+    .segundo-esquerdo{
+        float: left;
+        padding: 100px 0 0 0;
+        margin: 0;
+        overflow: auto;
+    }
+    .segundo-direito{
+        float: right;
+        padding: 150px 0 0 20px;
+        width: 40%;
+        height: 444px;
+        background: linear-gradient(to right, #f8f4f4 90%, #fff 10%);
+    }
+    .segundo-direito h1{
+        font-family: 'Vietnam-Bold';
+        font-size: 0.8rem;
+        color:#ad0c1b;
+        margin: 0;
+        padding-bottom: 10px;
+    }
+    .segundo-direito h2{
+        font-family: 'Vietnam-Bold';
+        font-size: 3rem;
+        color:black;
+        margin: 0;
+    }
+    .segundo-direito p{
+        font-family: 'Vietnam-Regular';
+        font-size: 0.8rem;
+        margin-bottom: 30px
+    }
+    .segundo-direito button {
+        background-color:#ad0c1b;
+        color: white;
+        border: none;
+        padding: 10px;
+    }
+    .segundo-direito button u{
+        font-family: 'Vietnam-Thin';
+        text-decoration: none;
+    }
+
+    /* terceira parte */
+    .terceira-parte{
+        background-color: black;
+        margin: 0;
+    }
+    .faixa{
+        background-color: black;
+        width: 100%;
+        height: 220px;
+    }
+    div{
+        padding: 60px 0 0 100px;
+        overflow: auto;
+        display: inline-block;
+    }
+    .faixa button{
+        background-color: #ad0c1b;
+        padding: 25px;
+        color: white;
+        border-radius: 1000px;
+        border: none;
+    }
+    .faixa button i{
+        font-size: 2rem;
+    }
+    .faixa h1{
+        font-size: 2.5rem;
+        font-family: 'Vietnam-Bold';
+        color: #fff;
+        padding:0 0 10px 80px;
+        height: 100px;
+        margin: 0;
+        display: inline-block;
+    }
+    .direito img{
+        height: 120px;
+        padding: 0 0 0 300px;
+        float: right;
+    }
+    
+    /* quarta parte */
+    .quarta-parte{
+        height: 800px;
+        background: linear-gradient(to right, #f8f4f4 70%, #ad0c1b 30%);
+    }
+    .txt{
+        padding: 100px 0 0 120px;
+    }
+    .quarta-parte h1{
+        font-family: 'Vietnam-Bold';
+        font-size: 1rem;
+        color:#ad0c1b;
+        margin: 0;
+        padding-bottom: 0px;
+    }
+    .quarta-parte h2{
+        font-family: 'Vietnam-Bold';
+        font-size: 4rem;
+        color:black;
+        margin: 0;
+    }
+    .quarta-parte p{
+        font-family: 'Vietnam-Regular';
+        font-size: 1rem;
+        margin-bottom: 30px
+    }
+    .cards{
+        padding: 50px 0 0 100px;
+    }
+    .space{
+        padding:20px 0 40px 30px;
+    }
+    .card1{
+        box-shadow: -10px 10px 30px lightgray;
+        height: 200px;
+        width: 200px;
+        background: #fff;
+        border-radius: 10px;
+        padding: 0;
+    }
+    .card1 div{
+        padding: 30px 0 0 25px;
+    }
+    .card1 i{
+        background-color: rgb(221, 6, 6);
+        border-radius: 5px;
+        padding-top: 10px;
+        color: white;
+        height: 60px;
+        width: 70px;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .card1 h1{
+        font-size: 1.4rem;
+        color: black;
+        padding: 25px 0 0 0;
+    }
+
+    .card2{
+        box-shadow: -10px 10px 30px lightgray;
+        height: 200px;
+        width: 200px;
+        background: #fff;
+        border-radius: 10px;
+        padding: 0;
+    }
+    .card2 div{
+        padding: 30px 0 0 25px;
+    }
+    .card2 i{
+        background-color: rgb(7, 7, 163);
+        border-radius: 5px;
+        padding-top: 10px;
+        color: white;
+        height: 60px;
+        width: 70px;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .card2 h1{
+        font-size: 1.4rem;
+        color: black;
+        padding: 25px 0 0 0;
+    }
+
+    .card3{
+        box-shadow: -10px 10px 30px lightgray;
+        height: 200px;
+        width: 200px;
+        background: #fff;
+        border-radius: 10px;
+        padding: 0;
+    }
+    .card3 div{
+        padding: 30px 0 0 25px;
+    }
+    .card3 i{
+        background-color: rgb(0, 151, 25);
+        border-radius: 5px;
+        padding-top: 10px;
+        color: white;
+        height: 60px;
+        width: 70px;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .card3 h1{
+        font-size: 1.4rem;
+        color: black;
+        padding: 25px 0 0 0;
+    }
+
+    .card4{
+        height: 200px;
+        width: 200px;
+        background: #fff;
+        border-radius: 10px;
+        padding: 0;
+    }
+    .card4 div{
+        padding: 30px 0 0 25px;
+    }
+    .card4 i{
+        background-color: rgb(231, 104, 19);
+        border-radius: 5px;
+        padding-top: 10px;
+        color: white;
+        height: 60px;
+        width: 70px;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .card4 h1{
+        font-size: 1.4rem;
+        color: black;
+        padding: 25px 0 0 0;
+    }
+
+    .card5{
+        height: 200px;
+        width: 200px;
+        background: #fff;
+        border-radius: 10px;
+        padding: 0;
+    }
+    .card5 div{
+        padding: 30px 0 0 25px;
+    }
+    .card5 i{
+        background-color: rgb(247, 243, 18);
+        border-radius: 5px;
+        padding-top: 10px;
+        color: white;
+        height: 60px;
+        width: 70px;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .card5 h1{
+        font-size: 1.4rem;
+        color: black;
+        padding: 25px 0 0 0;
+    }
+
+    /* sexta-parte */
+
+    .sexta-parte .text{
+        padding: 150px 0 0 0;
+        background-image: url(./img/pontos.png);
+        background-repeat: no-repeat;
+        background-size: 70px;
+        background-position-x: 80px;
+        background-position-y: 120px;
+    }
+    .sexta-parte h1{
+        font-family: 'Vietnam-Thin';
+        font-size: 1rem;
+        color:#ad0c1b;
+        margin: 0;
+        padding-bottom: 0px;
+        text-align: center;
+    }
+    .sexta-parte h2{
+        font-family: 'Vietnam-Bold';
+        font-size: 2.5rem;
+        color:black;
+        margin: 0;
+        text-align: center;
+        padding: 0;
+    }
+    .sexta-parte p{
+        font-family: 'Vietnam-Thin';
+        font-size: 0.9rem;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .sexta-parte .cards{
+        padding: 70px 0 0 150px;
+        background-image: url(./img/mackenzie-logo-3.png);
+        background-size: 500px;
+        background-repeat: no-repeat;
+        background-position-x: right;
+    }
+    .sexta-parte .card1{
+        box-shadow: -10px 10px 30px lightgray;
+        height: 300px;
+        width: 300px;
+        background: #fff;
+        border-radius: 5px;
+        padding: 0;
+        background-color: #ad0c1b;
+    }
+    .sexta-parte .card1 i{
+        position: absolute;
+        background-color:transparent;
+        color: white;
+        font-size: 2.5rem;
+    }
+    .sexta-parte .card1 h1{
+        font-size: 1.4rem;
+        font-family: 'Vietnam-Bold';
+        color: white;
+        float: left;
+        padding: 150px 0 0 0;
+    }
+    .sexta-parte .card1 p{
+        font-family: 'Vietnam-Thin';
+        font-size: 0.7rem;
+        color: white;
+        text-align: left;
+        padding: 0 20px 0 0;
+        float: left;
+    }
+
+    .sexta-parte .card2{
+        box-shadow: -10px 10px 30px lightgray;
+        height: 300px;
+        width: 300px;
+        background: #fff;
+        border-radius: 5px;
+        padding: 0;
+        background-color: white;
+    }
+    .sexta-parte .card2 i{
+        position: absolute;
+        background-color:transparent;
+        color: black;
+        font-size: 2.5rem;
+    }
+    .sexta-parte .card2 h1{
+        font-family: 'Vietnam-Bold';
+        font-size: 1.4rem;
+        color: black;
+        float: left;
+        padding: 150px 0 0 0;
+    }
+    .sexta-parte .card2 p{
+        font-family: 'Vietnam-Thin';
+        font-size: 0.8rem;
+        color: black;
+        text-align: left;
+        padding: 0 20px 0 0;
+        float: left;
+    }
+
+    .sexta-parte .card3{
+        box-shadow: -10px 10px 30px lightgray;
+        height: 300px;
+        width: 300px;
+        background: #fff;
+        border-radius: 5px;
+        padding: 0;
+        background-color: white;
+    }
+    .sexta-parte .card3 i{
+        position: absolute;
+        background-color:transparent;
+        color: black;
+        font-size: 2.5rem;
+    }
+    .sexta-parte .card3 h1{
+        font-family: 'Vietnam-Bold';
+        font-size: 1.4rem;
+        color: black;
+        float: left;
+        padding: 150px 0 0 0;
+    }
+    .sexta-parte .card3 p{
+        font-family: 'Vietnam-Thin';
+        font-size: 0.8rem;
+        color: black;
+        text-align: left;
+        padding: 0 20px 0 0;
+        float: left;
+    }
+
+    /* footer  */
+    .footer{
+        background-image: url(./img/IMG_0364.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 350px;
+    }
+    .footer img{
+        float: left;
+        height: 100px;
+        padding: 100px 0 0 50px;
+    }
+    .footer .textos{
+        padding: 80px 0 0 150px;
+        display: inline-block;
+    }
+    .footer .textos div{
+        padding: 0 0 0 30px;
+    }
+    .footer .textos div h1{
+        font-family: 'Vietnam-ExtraBold';
+        color: white;
+        font-size: 1rem;
+    }
+    .footer .textos div p{
+        font-family: 'Vietnam-Regular';
+        font-size: 0.8;
+        color: white;
+    }
+    hr{
+        margin: 0;
+        color: #ad0c1b;
+    }
+}
